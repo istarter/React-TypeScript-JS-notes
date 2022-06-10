@@ -1146,3 +1146,33 @@ export default function WindowTracker() {
    you need to define the function separately inside of the callback
    function,
 
+# Window.localStorage
+
+The localStorage read-only property of the window interface allows you to access a Storage object for the Document's origin; the stored data is saved across browser sessions.
+localStorage is similar to sessionStorage, except that while localStorage data has no expiration time, sessionStorage data gets cleared when the page session ends — that is, when the page is closed. (localStorage data for a document loaded in a "private browsing" or "incognito" session is cleared when the last "private" tab is closed.) https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+# Example
+```
+export default function App() {
+    /**
+     * Challenge:
+     * 1. Every time the `notes` array changes, save it 
+     *    in localStorage. You'll need to use JSON.stringify()
+     *    to turn the array into a string to save in localStorage.
+     * 2. When the app first loads, initialize the notes state
+     *    with the notes saved in localStorage. You'll need to
+     *    use JSON.parse() to turn the stringified array back
+     *    into a real JS array.
+     */
+    
+    const [notes, setNotes] = React.useState(
+        JSON.parse(localStorage.getItem("notes")) || []
+    )
+    const [currentNoteId, setCurrentNoteId] = React.useState(
+        (notes[0] && notes[0].id) || ""
+    )
+    
+    React.useEffect(() => {
+        localStorage.setItem("notes", JSON.stringify(notes))
+    }, [notes])
+    
+    ```
