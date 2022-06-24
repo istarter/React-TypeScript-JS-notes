@@ -1278,3 +1278,6 @@ Have the function ArrayChallenge(arr) take the array of numbers stored in arr wh
 The shift() method removes the first element of an array (and "shifts" the other elements to the left):
 Banana,Orange,Apple,Mango
 Orange,Apple,Mango
+
+# HOC in React
+A component that takes a component as an input and return that component as an output with own logic execution. 
