@@ -1281,3 +1281,11 @@ Orange,Apple,Mango
 
 # HOC in React
 A component that takes a component as an input and return that component as an output with own logic execution. 
+
+# Closure in Javascript 
+A closure is a function having access to the parent scope it preserve the data from outside. A closure is a inner function that has access to the outer enclsing function's variable. A function that remember it's enviroment like define variable etc. A closure function may have more function within it the function will remember vairables outside of the function. For every closure we have three scope. 
+1: Local scope (own scope): example a variable outside of the function can be access. 
+2: Outer functions scope.
+3: Global scope. 
+function=>function(can access parent and outer function variables).
+parent function cannot access inner function variables. 
