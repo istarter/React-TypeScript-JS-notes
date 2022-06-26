@@ -1288,4 +1288,24 @@ A closure is a function having access to the parent scope it preserve the data f
 2: Outer functions scope.
 3: Global scope. 
 function=>function(can access parent and outer function variables).
-parent function cannot access inner function variables. 
+parent function cannot access inner function variables.
+
+# useRef()
+useRef allows us to get direct access to a JSX element.For example, if we wanted to write some code that focuses a search input when the users use the key combination Control + K.
+```
+import { useWindowEvent } from "@mantine/hooks";
+import { useRef } from "react";
+
+function Header() {
+	const inputRef = useRef();
+
+  useWindowEvent("keydown", (event) => {
+    if (event.code === "KeyK" && event.ctrlKey) {
+      event.preventDefault();
+      inputRef.current.focus();
+    }
+  });
+  
+  return <input ref={inputRef} />
+}
+```
