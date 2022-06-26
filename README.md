@@ -1309,3 +1309,8 @@ function Header() {
   return <input ref={inputRef} />
 }
 ```
+# useCallback() 
+useCallback will return a memoized version of the callback that only changes if one of the dependencies has changed. This is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders (e.g. shouldComponentUpdate ).
+
+# useMemo()
+when we useMemo basically it memorize the child component to stop it from rerending everytime if there is change on props element then it ll rerender otherwise it won't rerender. 
