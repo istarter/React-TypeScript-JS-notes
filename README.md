@@ -1311,6 +1311,14 @@ function Header() {
 ```
 # useCallback() 
 useCallback will return a memoized version of the callback that only changes if one of the dependencies has changed. This is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders (e.g. shouldComponentUpdate ).
-
+Problem: passing props or (functions) from parents to child component every time the main component render the child component render unnecessary because the child component props methods called why they think we got new updates but did not. 
+Example: 
+```
+const Todo = useCallback(() => {
+console.log("Now it won't do unnecssary re-render")
+}, [dependency])
+```
 # useMemo()
-when we useMemo basically it memorize the child component to stop it from rerending everytime if there is change on props element then it ll rerender otherwise it won't rerender. 
+when we useMemo basically it memorize the child component to stop it from rerending everytime if there is change on props element then it ll rerender otherwise it won't rerender.
+# Difference Between useMemo And useCallback
+The major difference between useCallback and useMemo is that useCallback will memory the returned value, whereas useMemo will memory the function. Essentially, the only difference between these hooks is that one caches a value type, and the other caches a function
