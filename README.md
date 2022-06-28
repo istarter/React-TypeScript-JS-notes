@@ -1321,4 +1321,20 @@ console.log("Now it won't do unnecssary re-render")
 # useMemo()
 when we useMemo basically it memorize the child component to stop it from rerending everytime if there is change on props element then it ll rerender otherwise it won't rerender.
 # Difference Between useMemo And useCallback
-The major difference between useCallback and useMemo is that useCallback will memory the returned value, whereas useMemo will memory the function. Essentially, the only difference between these hooks is that one caches a value type, and the other caches a function
+The major difference between useCallback and useMemo is that useCallback will memory the returned value, whereas useMemo will memory the function. Essentially, the only difference between these hooks is that one caches a value type, and the other caches a function.
+# useReducer() 
+The useReducer() hook in React lets you separate the state management from the rendering logic of the component. useReducer also lets you optimize performance for components that trigger deep updates because you can pass dispatch down instead of callbacks.
+1: useReducer is a hook that used for state management.
+2: useReducer is an alternative to useState.
+3: useReducer hook accepts 2 paramater useReducer(reducer,initialState)
+4: ruducer funtion also accepts 2 paramter (currentState, action)
+Detail Reading: https://dmitripavlutin.com/react-usereducer/#:~:text=4.-,Conclusion,function%20and%20the%20initial%20state.
+Store: Globalized state
+Action: Increment press the button will add one (how to change state object).
+Reducer(function that manages changes to an object): The action is gonna be called the reducer will check which action you did based on that action it’s gonna modify our store. Or using a reducer to manage our state  Function that manages changes to an object. 
+  Argument #1: object that has all of our state in it.
+Argument #2: object that describes the update we want to make (update state).
+Two technicalities (1) we never change argument #1 directly. (2) we must always return a value to be used as argument  #1. 2nd argument would be an object that describes exactly how we are supposed to change that state. 
+Why do we use a reducer because some pieces of state are extremely related.
+
+
