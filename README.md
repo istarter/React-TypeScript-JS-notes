@@ -1337,4 +1337,6 @@ Argument #2: object that describes the update we want to make (update state).
 Two technicalities (1) we never change argument #1 directly. (2) we must always return a value to be used as argument  #1. 2nd argument would be an object that describes exactly how we are supposed to change that state. 
 Why do we use a reducer because some pieces of state are extremely related.
 
-
+# useReducer with useContext
+useRducer local state management. 
+Global state management: Share state between components => useContext + useRedcuer 
