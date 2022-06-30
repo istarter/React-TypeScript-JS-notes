@@ -1339,4 +1339,20 @@ Why do we use a reducer because some pieces of state are extremely related.
 
 # useReducer with useContext
 useRducer local state management. 
-Global state management: Share state between components => useContext + useRedcuer 
+Global state management: Share state between components => useContext + useRedcuer
+Import reducer file and create context example here:
+Import { createContext, useReducer  } from ‘react’;
+Import whatever reducer file has been made import that:
+Import AppReducer from ‘reducerfolder’;
+Make an object for the values like: 
+Const initialState = []
+Making context hook:
+export const contextName = createContext(initialState);
+Initializing reducer: first argument should be reducer file which has been imported, second argument must be initial state.
+	Let [state, dispatch] = useReducer(AppReducer, initialState);
+Now making Provider component : 
+Export const ProviderName = ({}) => {
+Let [state, dispatch] = useReducer(AppReducer, initialState);
+}
+Make action then create <GlobalContext.Provider> </GlobalContext.Provider>
+
