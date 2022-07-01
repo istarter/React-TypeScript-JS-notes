@@ -1358,17 +1358,17 @@ Let [state, dispatch] = useReducer(AppReducer, initialState);
 Make action then create <GlobalContext.Provider> </GlobalContext.Provider>
 
 # Interview asked questions
-1: controlled component vs uncontrolled componenet?
-2: call by value and call by refernce?
-3: compiler vs interpreter?
-4: static vs const difference? 
-5: what is super()?
-6: mvc vs mvvm?
-7: strict mode
-8: typeof
-9: do while vs while loop?
-10: what methodologies you have used? 
-11: can I pass function in the state declaration
-12: anonymous function?
-13: strutered langague vs OOP
+1. controlled component vs uncontrolled componenet?
+2. call by value and call by refernce?
+3. compiler vs interpreter?
+4. static vs const difference? 
+5. what is super()?
+6. mvc vs mvvm?
+7. strict mode
+8. typeof
+9. do while vs while loop?
+10. what methodologies you have used? 
+11. can I pass function in the state declaration
+12. anonymous function?
+13. strutered langague vs OOP
 
