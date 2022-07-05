@@ -1373,4 +1373,10 @@ In a controlled component, form data is handled by a React component. The altern
 12. anonymous function?
 13. strutered langague vs OOP
 14. Difference between static, protected and public?
+15. **Difference between responsive design and adoptive design?**: A responsive design can change its layout and appearance based on the screen size of the device it’s accessed on, from a large desktop computer to a small mobile phone.
+An adaptive design requires the creation of a different layout for each device the website will be accessed on.
+Responsive design often takes less work for a UX designer to create, but they will have to work with the developer to ensure the layout of the site is usable at each possible screen size.
+Adaptive design requires a UX designer to create up to six different versions of a single website for different-sized screens. While this is a lot of work, it enables the UX designer to optimize the user experience for every device these layouts cover.
+Responsive design often works best for bigger sites that are being designed from scratch.
+Adaptive design often works best for smaller sites that are being refreshed.
 
