@@ -1372,4 +1372,5 @@ In a controlled component, form data is handled by a React component. The altern
 11. can I pass the function in the state declaration
 12. anonymous function?
 13. strutered langague vs OOP
+14. Difference between static, protected and public?
 
