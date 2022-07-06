@@ -1385,4 +1385,6 @@ Adaptive design often works best for smaller sites that are being refreshed.
 currentTarget is the element that the event listener is attached to.
 17: **Difference between POST & GET**: Differentiate between GET and POST.
 Both GET and POST method is used to transfer data from client to server in HTTP protocol but Main difference between POST and GET method is that GET carries request parameter appended in URL string while POST carries request parameter in message body which makes it more secure way of transferring data from client to server.
+18: **What is callback function**: This function is anynomus no name. 
+Callbacks are generally used when the function needs to perform events before the callback is executed, or when the function does not (or cannot) have meaningful return values to act on, as is the case for Asynchronous JavaScript (based on timers) or XMLHttpRequest requests
 
