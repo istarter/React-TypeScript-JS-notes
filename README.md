@@ -22,6 +22,8 @@ forEach() is a array method. forEach() take a single argument must have to be a 
 
 ### Mapping over the Array: 
 
+Generally map() method is used to iterate over an array and calling function on every element of array.
+
 ```
 const thingsArray = ["Thing 1", "Thing 2"];
  const thingsElements = thingsArray.map((thing) => <p key={thing}>{thing}</p>);
@@ -1379,4 +1381,6 @@ Responsive design often takes less work for a UX designer to create, but they wi
 Adaptive design requires a UX designer to create up to six different versions of a single website for different-sized screens. While this is a lot of work, it enables the UX designer to optimize the user experience for every device these layouts cover.
 Responsive design often works best for bigger sites that are being designed from scratch.
 Adaptive design often works best for smaller sites that are being refreshed.
+16. **Difference between even.target and current target?**: Target is the element that triggered the event (e.g., the user clicked on)
+currentTarget is the element that the event listener is attached to.
 
