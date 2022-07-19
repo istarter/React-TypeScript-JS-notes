@@ -1368,16 +1368,18 @@ In a controlled component, form data is handled by a React component. The altern
 5. what is super()?
 6. mvc vs mvvm?
 7. strict mode
-8. typeof
-9. do while vs while loop?
-10. what methodologies you have used? 
-11. can I pass the function in the state declaration
-12. anonymous function?
-13. strutered langague vs OOP
-14. Difference between static, protected and public?
-15. what is lazy loading?
-16. **why and advantage of typescript lanaguage?**: TypeScript is a superset of typed JavaScript (optional) that can help build and manage large-scale JavaScript projects. It can be considered JavaScript with additional features like strong static typing, compilation, and object-oriented programming. TypeScript, as you may have guessed from the name, is a superset of JavaScript that introduces optional types (amongst other features) to JavaScript’s functionality, providing improved reliability by lowering the chance of bugs. Even better: Angular 2 itself is actually written in TypeScript. 
-18. **Difference between responsive design and adoptive design?**: A responsive design can change its layout and appearance based on the screen size of the device it’s accessed on, from a large desktop computer to a small mobile phone.
+8. what is typeof?
+9. what is doctype in html? 
+10. do while vs while loop?
+11. what methodologies you have used? 
+12. can I pass the function in the state declaration
+13. anonymous function?
+14. strutered langague vs OOP
+15. Difference between private,static, protected and public?
+16. what is lazy loading?
+17. **absolute vs relative url**: An absolute URL contains all the information necessary to locate a resource. A relative URL locates a resource using an absolute URL as a starting point. In effect, the "complete URL" of the target is specified by concatenating the absolute and relative URLs.
+18. **why and advantage of typescript lanaguage?**: TypeScript is a superset of typed JavaScript (optional) that can help build and manage large-scale JavaScript projects. It can be considered JavaScript with additional features like strong static typing, compilation, and object-oriented programming. TypeScript, as you may have guessed from the name, is a superset of JavaScript that introduces optional types (amongst other features) to JavaScript’s functionality, providing improved reliability by lowering the chance of bugs. Even better: Angular 2 itself is actually written in TypeScript. 
+19. **Difference between responsive design and adoptive design?**: A responsive design can change its layout and appearance based on the screen size of the device it’s accessed on, from a large desktop computer to a small mobile phone.
 An adaptive design requires the creation of a different layout for each device the website will be accessed on.
 Responsive design often takes less work for a UX designer to create, but they will have to work with the developer to ensure the layout of the site is usable at each possible screen size.
 Adaptive design requires a UX designer to create up to six different versions of a single website for different-sized screens. While this is a lot of work, it enables the UX designer to optimize the user experience for every device these layouts cover.
@@ -1390,3 +1392,5 @@ Both GET and POST method is used to transfer data from client to server in HTTP 
 18: **What is callback function**: This function is anynomus no name. 
 Callbacks are generally used when the function needs to perform events before the callback is executed, or when the function does not (or cannot) have meaningful return values to act on, as is the case for Asynchronous JavaScript (based on timers) or XMLHttpRequest requests
 
+# Additinal links for the interview js,react,typescript,css,html
+[CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
