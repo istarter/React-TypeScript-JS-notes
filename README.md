@@ -1393,9 +1393,9 @@ Both GET and POST method is used to transfer data from client to server in HTTP 
 Callbacks are generally used when the function needs to perform events before the callback is executed, or when the function does not (or cannot) have meaningful return values to act on, as is the case for Asynchronous JavaScript (based on timers) or XMLHttpRequest requests
 
 # Additinal links for the interview js,react,typescript,css,html
-[CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
-[CSS top questions ](https://www.interviewbit.com/css-interview-questions/)
+1. [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
+2. [CSS top questions ](https://www.interviewbit.com/css-interview-questions/)
 
 # Resume samples
-[DevOps resume](https://www.hireitpeople.com/resume-database/67-quality-assurance-qa-resumes/229157-jr-devops-engineer-intern-resume-lewis-center-oh)
-[DevOps resume 2](https://www.livecareer.com/resume-search/r/devops-intern-dfe8cd098100442fb7b0057599b6b0fa)
+1. [DevOps resume](https://www.hireitpeople.com/resume-database/67-quality-assurance-qa-resumes/229157-jr-devops-engineer-intern-resume-lewis-center-oh)
+2. [DevOps resume 2](https://www.livecareer.com/resume-search/r/devops-intern-dfe8cd098100442fb7b0057599b6b0fa)
