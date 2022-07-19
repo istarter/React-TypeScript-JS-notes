@@ -1394,3 +1394,8 @@ Callbacks are generally used when the function needs to perform events before th
 
 # Additinal links for the interview js,react,typescript,css,html
 [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
+[CSS top questions ](https://www.interviewbit.com/css-interview-questions/)
+
+# Resume samples
+[DevOps resume](https://www.hireitpeople.com/resume-database/67-quality-assurance-qa-resumes/229157-jr-devops-engineer-intern-resume-lewis-center-oh)
+[DevOps resume 2](https://www.livecareer.com/resume-search/r/devops-intern-dfe8cd098100442fb7b0057599b6b0fa)
