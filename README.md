@@ -1375,7 +1375,9 @@ In a controlled component, form data is handled by a React component. The altern
 12. anonymous function?
 13. strutered langague vs OOP
 14. Difference between static, protected and public?
-15. **Difference between responsive design and adoptive design?**: A responsive design can change its layout and appearance based on the screen size of the device it’s accessed on, from a large desktop computer to a small mobile phone.
+15. what is lazy loading?
+16. **why and advantage of typescript lanaguage?**: TypeScript is a superset of typed JavaScript (optional) that can help build and manage large-scale JavaScript projects. It can be considered JavaScript with additional features like strong static typing, compilation, and object-oriented programming. TypeScript, as you may have guessed from the name, is a superset of JavaScript that introduces optional types (amongst other features) to JavaScript’s functionality, providing improved reliability by lowering the chance of bugs. Even better: Angular 2 itself is actually written in TypeScript. 
+18. **Difference between responsive design and adoptive design?**: A responsive design can change its layout and appearance based on the screen size of the device it’s accessed on, from a large desktop computer to a small mobile phone.
 An adaptive design requires the creation of a different layout for each device the website will be accessed on.
 Responsive design often takes less work for a UX designer to create, but they will have to work with the developer to ensure the layout of the site is usable at each possible screen size.
 Adaptive design requires a UX designer to create up to six different versions of a single website for different-sized screens. While this is a lot of work, it enables the UX designer to optimize the user experience for every device these layouts cover.
