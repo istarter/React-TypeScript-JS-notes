@@ -1359,6 +1359,30 @@ Let [state, dispatch] = useReducer(AppReducer, initialState);
 }
 Make action then create <GlobalContext.Provider> </GlobalContext.Provider>
 
+# Typescript Notes
+
+### Now, what would be the reasons for adding static typing to JavaScript?
+
+I can list at least three:
+
+1. You can avoid masterfully-hidden-ninja errors like the classic 'undefined' is not a function. 
+2. It is easier to refactor code without breaking it significantly.
+3. Orienting oneself in complex, large-scale systems is not a nightmare anymore.
+Actually, a study shows that 15% of all JavaScript bugs can be detected by TypeScript.
+
+1. Validate your code is to working correctly.
+2. Client and server side development.
+3. Writing types is optinal.
+4. Transcompiles to javascript.
+5. Browser can't compile trypescript. 
+Pros of Typescript:
+ - Less error
+ - Cleaner
+ - More readable
+ - No need for psodoucode
+ - Client and server side
+ - Optinal
+
 # Interview asked questions
 1. controlled component vs uncontrolled componenet?: ** 
 In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself. To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM.**
