@@ -1418,6 +1418,22 @@ Both GET and POST method is used to transfer data from client to server in HTTP 
 This function is anynomus no name. 
 Callbacks are generally used when the function needs to perform events before the callback is executed, or when the function does not (or cannot) have meaningful return values to act on, as is the case for Asynchronous JavaScript (based on timers) or XMLHttpRequest requests
 
+# TypeScript 
+ #### JavaScript Types....
+ Primitives:
+ - Boolean : typeof instance === "boolean"
+ - Number : typeof instance === "number"
+ - String : typeof instance === "string"
+ - BigInt : typeof instance === "bigint"
+ - Symbol : typeof instance === "symbol"
+ - undefined : typeof instance === "undefined"
+
+Structural Types:
+ - Object : typeof instance === "object"
+ - Function : typeof instance === "function"
+ - Structural Root Primitive:
+ - null : typeof instance === "object"
+
 # Additinal links for the interview js,react,typescript,css,html
 1. [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
 2. [CSS top questions ](https://www.interviewbit.com/css-interview-questions/)
