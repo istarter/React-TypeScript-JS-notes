@@ -1386,7 +1386,7 @@ Pros of Typescript:
 # Interview asked questions
 1. controlled component vs uncontrolled componenet?: ** 
 In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself. To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM.**
-2. call by value and call by refernce?
+2. **call by value and call by refernce?:***  
 3. compiler vs interpreter?
 4. static vs const difference? 
 5. what is super()?
@@ -1433,6 +1433,21 @@ Structural Types:
  - Function : typeof instance === "function"
  - Structural Root Primitive:
  - null : typeof instance === "object"
+**** All Types
+1. Boolean type
+2. Number type
+3. String type
+4. Objet type
+5. Array type
+6. Enum type
+7. Any type
+8. Union type
+9. Literal type
+10. Function type
+11. Unknown type
+12. Never type
+13. Custom type
+
 
 # Additinal links for the interview js,react,typescript,css,html
 1. [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
