@@ -1437,8 +1437,8 @@ Structural Types:
 1. Boolean type
 2. Number type
 3. String type
-4. Objet type
-5. Array type
+4. Objet type:
+5. Array type: stayted: string[] array only inculded strings. 
 6. Enum type
 7. Any type
 8. Union type
@@ -1447,7 +1447,49 @@ Structural Types:
 11. Unknown type
 12. Never type
 13. Custom type
+14. Array of objects:  which means in [ {list of item syntex would like like this.}]
 
+```
+        name: 'Sheia',
+        stars: 5,
+        loyaltyUser: true,
+        date: '01-04-2021'
+    },
+    {
+        name: 'Andrzej',
+        stars: 3,
+        loyaltyUser: false,
+        date: '28-03-2021'
+    },
+    {
+        name: 'Omar',
+        stars: 4,
+        loyaltyUser: true,
+        date: '27-03-2021'
+    },
+]
+
+```
+
+```
+
+const you: {  // object type syntex
+    firstName: string;
+    lastName: string;
+    isReturning: boolean;
+    age: number;
+    stayedAt: string[]; // array in object only include strings
+    // what if we have number in below object? the stayedt would be 
+    //stayedAt: (string[] | number[]) now string and number both included
+} = {
+    firstName: 'Bobby',
+    lastName: 'Brown',
+    isReturning: true,
+    age: 35,
+    stayedAt: ['florida-home', 'oman-flat', 'tokyo-bungalow', 23]
+}
+
+```
 
 # Additinal links for the interview js,react,typescript,css,html
 1. [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
