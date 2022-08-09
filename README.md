@@ -1439,15 +1439,32 @@ Structural Types:
 3. String type
 4. Objet type:
 5. Array type: stayted: string[] array only inculded strings. 
-6. Enum type
+6. Enum type: As in langugaes like C#, an enum is a way of giving more friendly names to sets of numeric values. 
 7. Any type
 8. Union type
 9. Literal type
 10. Function type
 11. Unknown type
 12. Never type
-13. Custom type
-14. Array of objects:  which means in [ {list of item syntex would like like this.}]
+13. Custom type: ``` const ADMIN = 'admin'
+const READ_ONLY = 'read-only'
+
+
+enum Permissions {
+    ADMIN,
+    READ_ONLY
+}
+
+const you = {
+    firstName: 'Bobby',
+    lastName: 'Brown',
+    permissions: Permissions.ADMIN,
+    isReturning: true,
+    age: 35,
+    stayedAt: ['florida-home', 'oman-flat', 'tokyo-bungalow']
+} ```
+14. Tuples type: Allow you to express an array with a fixed number of elements whose types are known. example [string, string, number] values must ['hi','bye',6] we know here ar 2 strings and one integer.
+15. Array of objects:  which means in [ {list of item syntex would like like this.}]
 
 ```
         name: 'Sheia',
