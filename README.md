@@ -1442,11 +1442,12 @@ Structural Types:
 6. Enum type: As in langugaes like C#, an enum is a way of giving more friendly names to sets of numeric values. 
 7. Any type
 8. Union type
-9. Literal type
-10. Function type
+9. Literal type: In addition to the general types string and number, we can refer to specific strings and numbers in type positions. whatever the value has been assigned it ll be the same value in the varible can't assign another value to it. type Price = 45 | 30 | 25 set of values in the object will have price: Price
+10. Function type: Typescript has many ways to describe how funtions can be called. Let's learn about how to write types that describe functions. 
 11. Unknown type
 12. Never type
-13. Custom type: ``` const ADMIN = 'admin'
+13. Void type: In typescript there is also undefined in the function so you have return undefined as well instead of undefine we can write void.
+14. Custom type: ``` const ADMIN = 'admin'
 const READ_ONLY = 'read-only'
 
 
