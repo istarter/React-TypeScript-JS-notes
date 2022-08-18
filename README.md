@@ -1418,6 +1418,7 @@ Both GET and POST method is used to transfer data from client to server in HTTP 
 This function is anynomus no name. 
 Callbacks are generally used when the function needs to perform events before the callback is executed, or when the function does not (or cannot) have meaningful return values to act on, as is the case for Asynchronous JavaScript (based on timers) or XMLHttpRequest requests.
 24. ***What is Portal***: Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. ReactDOM. createPortal(child, container) The first argument ( child ) is any renderable React child, such as an element, string, or fragment.
+25. ***UseRef***: ref is use to access dom element or to manipulate the dom, useRef can also be used if there's only needs to read a data in this case useRef is good option instead of useState. 
 
 # TypeScript 
  #### JavaScript Types....
