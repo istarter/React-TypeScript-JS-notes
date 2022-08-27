@@ -1514,6 +1514,7 @@ const you: {  // object type syntex
 # Additinal links for the interview js,react,typescript,css,html
 1. [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
 2. [CSS top questions ](https://www.interviewbit.com/css-interview-questions/)
+3. [JavaScript questions](https://www.fullstack.cafe/blog/advanced-javascript-interview-questions)
 
 # Resume samples
 1. [DevOps resume](https://www.hireitpeople.com/resume-database/67-quality-assurance-qa-resumes/229157-jr-devops-engineer-intern-resume-lewis-center-oh)
