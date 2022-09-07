@@ -1511,6 +1511,30 @@ const you: {  // object type syntex
 
 ```
 
+Component with interface 
+
+```
+interface ChildProps {
+color: string
+}
+export const ChildAsFC: React.FC<ChildProps> = ({color}) => {
+    
+}
+```
+
+we can add other type of values in interface definition
+
+```
+
+interface ChildProps {
+color: string;
+onClick: () => void;
+}
+//use useRef() with typescript
+const inputRef = useRef<HTMLInputElement | null>(null);
+
+```
+
 # Additinal links for the interview js,react,typescript,css,html
 1. [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
 2. [CSS top questions ](https://www.interviewbit.com/css-interview-questions/)
