@@ -1359,6 +1359,27 @@ Let [state, dispatch] = useReducer(AppReducer, initialState);
 }
 Make action then create <GlobalContext.Provider> </GlobalContext.Provider>
 
+
+***React 18 ****
+
+```
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+reportWebVitals();
+
+```
+
 # Typescript Notes
 
 ### Now, what would be the reasons for adding static typing to JavaScript?
@@ -1418,7 +1439,9 @@ Both GET and POST method is used to transfer data from client to server in HTTP 
 This function is anynomus no name. 
 Callbacks are generally used when the function needs to perform events before the callback is executed, or when the function does not (or cannot) have meaningful return values to act on, as is the case for Asynchronous JavaScript (based on timers) or XMLHttpRequest requests.
 24. ***What is Portal***: Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. ReactDOM. createPortal(child, container) The first argument ( child ) is any renderable React child, such as an element, string, or fragment.
-25. ***UseRef***: ref is use to access dom element or to manipulate the dom, useRef can also be used if there's only needs to read a data in this case useRef is good option instead of useState. 
+25. ***UseRef***: ref is use to access dom element or to manipulate the dom, useRef can also be used if there's only needs to read a data in this case useRef is good option instead of useState.
+26. ***Pure and Impure***: Pure functions return the same output if we use the same input parameters. However, impure functions give different outcomes when we pass the same arguments multiple times. 
+27. ***Side Effect***: A side effect is when a function creates some kind of effect outside of it's scope. and the scope is whatever is inside of the function. The outside variable can be accessible in the inside scope, and it is also accessible outside of the funciton. if a variable is declared outside of the function and we change it inside the function it's called Side Effect.  
 
 # TypeScript 
  #### JavaScript Types....
