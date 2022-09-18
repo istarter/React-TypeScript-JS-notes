@@ -1558,6 +1558,12 @@ const inputRef = useRef<HTMLInputElement | null>(null);
 
 ```
 
+
+
+### React Routes 
+- Outlet: It ll show on each page on top of every component for example for the Navbar.
+
+
 # Additinal links for the interview js,react,typescript,css,html
 1. [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
 2. [CSS top questions ](https://www.interviewbit.com/css-interview-questions/)
