@@ -1564,6 +1564,14 @@ const inputRef = useRef<HTMLInputElement | null>(null);
 - Outlet: It ll show on each page on top of every component for example for the Navbar.
 
 
+
+### Firebase
+ - Answers 1 : of What is the equivalent of a collection and a document of firebase in sql
+ - A Firestore collection is roughly anycodings_sql equivalent to a SQL table.
+ - A Firestore document is roughly anycodings_sql equivalent to a SQL row.
+ - Nested subcollections in Firestore don't anycodings_sql have a direct SQL equivalent. You would  anycodings_sql just use another table for that. Since anycodings_sql tables can't be "nested" in  SQL, it has anycodings_sql to exist at the top level along with all anycodings_sql the others.
+
+
 # Additinal links for the interview js,react,typescript,css,html
 1. [CSS ](https://www.simplilearn.com/tutorials/css-tutorial/css-interview-questions)
 2. [CSS top questions ](https://www.interviewbit.com/css-interview-questions/)
