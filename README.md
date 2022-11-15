@@ -1339,6 +1339,7 @@ Reducer(function that manages changes to an object): The action is gonna be call
 Argument #2: object that describes the update we want to make (update state).
 Two technicalities (1) we never change argument #1 directly. (2) we must always return a value to be used as argument  #1. 2nd argument would be an object that describes exactly how we are supposed to change that state. 
 Why do we use a reducer because some pieces of state are extremely related.
+- CombineReducers: This is a reducer where all other reducer put together in the root reducer which produce the store available to the entire application. 
 
 # useReducer with useContext
 useRducer local state management. 
@@ -1360,6 +1361,10 @@ Let [state, dispatch] = useReducer(AppReducer, initialState);
 Make action then create <GlobalContext.Provider> </GlobalContext.Provider>
 
 
+### Redux
+
+- Pure Function: And in turn they return you back some object that represents the values in the state. This store is just in order to facilitate the movement and passing of actions through these reducers.
+- Middle Wears: In order to do that, we actually need to create this thing called middle wears. Middle wears our kind of like little library helpers that run before an action hits the reducer. So whenever you dispatch an action before that action hits the reducers, it hits the middleware first.
 ***React 18 ****
 
 ```
