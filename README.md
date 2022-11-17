@@ -1469,7 +1469,10 @@ Structural Types:
 3. String type
 4. Objet type:
 5. Array type: stayted: string[] array only inculded strings. 
-6. Enum type: As in langugaes like C#, an enum is a way of giving more friendly names to sets of numeric values. 
+6. Enum type: In simple words, enums allow us to declare a set of named constants i.e. a collection of related values that can be numeric or string values. There are three types of enums:
+		- Numeric enum
+		- String enum
+		- Heterogeneous enum. 
 7. Any type
 8. Union type
 9. Literal type: In addition to the general types string and number, we can refer to specific strings and numbers in type positions. whatever the value has been assigned it ll be the same value in the varible can't assign another value to it. type Price = 45 | 30 | 25 set of values in the object will have price: Price
