@@ -1424,10 +1424,11 @@ In a controlled component, form data is handled by a React component. The altern
 11. what methodologies you have used? 
 12. can I pass the function in the state declaration
 13. anonymous function?
-14. strutered langague vs OOP
-15. Difference between private,static, protected and public?
-16. what is lazy loading?
-17. ***Undefined vs null***: undefined is a variable that refers to something that doesn't exist, and the variable isn't defined to be anything. null is a variable that is defined but is missing a value. example undefiend let a; console.log(a). null: let b = null console.log(b)
+14. strutered langague vs OOP.
+15. Why use key in react: Key is used to identify react each component. 
+16. Difference between private,static, protected and public?
+17. what is lazy loading?
+18. ***Undefined vs null***: undefined is a variable that refers to something that doesn't exist, and the variable isn't defined to be anything. null is a variable that is defined but is missing a value. example undefiend let a; console.log(a). null: let b = null console.log(b)
 19. **absolute vs relative url**: An absolute URL contains all the information necessary to locate a resource. A relative URL locates a resource using an absolute URL as a starting point. In effect, the "complete URL" of the target is specified by concatenating the absolute and relative URLs.
 20. **why and advantage of typescript lanaguage?**: TypeScript is a superset of typed JavaScript (optional) that can help build and manage large-scale JavaScript projects. It can be considered JavaScript with additional features like strong static typing, compilation, and object-oriented programming. TypeScript, as you may have guessed from the name, is a superset of JavaScript that introduces optional types (amongst other features) to JavaScript’s functionality, providing improved reliability by lowering the chance of bugs. Even better: Angular 2 itself is actually written in TypeScript. 
 21. **Difference between responsive design and adoptive design?**: A responsive design can change its layout and appearance based on the screen size of the device it’s accessed on, from a large desktop computer to a small mobile phone.
