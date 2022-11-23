@@ -1324,7 +1324,8 @@ console.log("Now it won't do unnecssary re-render")
 # useMemo()
 when we useMemo basically it memorize the child component to stop it from rerending everytime if there is change on props element then it ll rerender otherwise it won't rerender.
 # Difference Between useMemo And useCallback
-The major difference between useCallback and useMemo is that useCallback will memory the returned value, whereas useMemo will memory the function. Essentially, the only difference between these hooks is that one caches a value type, and the other caches a function.
+It's primarily for when you have expensive functions that need to re compute and they depend on these
+values inside of your functional component. If you want to memorize those values and make sure that they don't get interrupted or they don't get rerun unnecessarily during a re render cycle, then you use the use memo hook. So that's the difference between use memo and use callback. Use callback memorizes the function itself.Use memo. Memo is the return value of the function.
 # useReducer() 
 The useReducer() hook in React lets you separate the state management from the rendering logic of the component. useReducer also lets you optimize performance for components that trigger deep updates because you can pass dispatch down instead of callbacks.
 1. useReducer is a hook that used for state management.
