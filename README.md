@@ -1410,6 +1410,21 @@ Pros of Typescript:
  - Client and server side
  - Optinal
 
+#### Progressive Web App
+
+![image](https://user-images.githubusercontent.com/11480617/206696506-283f1e77-bde9-4ca9-ae65-7e9bae5b164f.png)
+
+
+## Testing in React 
+
+![image](https://user-images.githubusercontent.com/11480617/206752753-c64786c3-b41c-481c-b3d0-30c74503c13f.png)
+
+***Unit Tests*** Unit tests, as the name suggests, tests, individual functions or classes. So if I had a some function, I'm going to just test that one function to make sure that it does what
+it says it does. Maybe if it accepts parameter A and B, I want to make sure that A and B get added with that function. They are the cheapest to implement, the easiest to implement. And 90% of your time, you're going to be working on writing unit tests. Unit tests should cover all small, pure functions of an application. You may have heard that small pure functions that take an input and return an output.
+***Integration Tests:*** The second one is something called integration tests. This is testing how different pieces of code work together. So it can be testing of whether the database works with the Express app that's requesting some data from the database. Or it could be how a function works with another function and how this connection between them works and testing that. Integration tests are all about cross communication between different units of code. Comparing to unit tests, you would probably use something like spies from a marking library to ensure expected side effects instead of just asserting an output. Or you might use stubs to mock and modify parts of a process that are not inside of the specific test. Such as mocking a database call. We can say run in a test to a function that says Get user to mock the database, call and just fake it and return, let's say a fake user just for the test. Overall though, think of integration tasks as connecting components to see how they work together instead of individual small units that unit tests test. Well, you test the connection between them.
+The downside with to them is that they are expensive. They're slower. There's more deaf time involved in thinking them out and writing them compared to unit tests which are much faster to run.
+
+
 # Interview asked questions
 1. controlled component vs uncontrolled componenet?: ** 
 In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself. To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM.**
