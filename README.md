@@ -1430,8 +1430,12 @@ The downside with to them is that they are expensive. They're slower. There's mo
 ### Enzyme
 - ***Shallow***: So what does shallow do? Simply by running this syntax, we're saying, Hey, shallow, render this card component and shallow rendering is useful because it just renders the card component. If the cart component for some reason, let's say, had another component inside of it, that is the hello component. Well, it's not going to render that as well. It's just going to shallowly render just this component. And it's useful because it constrains yourself to testing one component at a time, one unit. As you might remember, a unit test is something that just tests one unit at a time, one small piece at a time.
 - [Enzyme Documenation](https://enzymejs.github.io/enzyme/docs/api/')
+***SnapShot Testing***: Wouldn't it be great if we can just take a snapshot of whatever this card component renders at any time  while we're writing our card component, anything changes and the component doesn't look as we expected it to as the snapshot that we took a picture of. Well, if it looks any different, then we fail the tests. That's what snapshot testing is.
 
+### GraphQl
 
+- Edges: QraphQl edges will be the array of the number of files that we have inside of our images folder.
+- Node: Now, inside of every edge will be a node, and that node is the representation of what that file is.
 # Interview asked questions
 - [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions')
 1. controlled component vs uncontrolled componenet?: ** 
@@ -1626,3 +1630,5 @@ return fib(n-1) + fib(n-2);}
 # Resume samples
 1. [DevOps resume](https://www.hireitpeople.com/resume-database/67-quality-assurance-qa-resumes/229157-jr-devops-engineer-intern-resume-lewis-center-oh)
 2. [DevOps resume 2](https://www.livecareer.com/resume-search/r/devops-intern-dfe8cd098100442fb7b0057599b6b0fa)
+3. [DevOps Course and Interview Questions](https://www.simplilearn.com/tutorials/devops-tutorial')
+4. [DevOps Interview](https://www.edureka.co/blog/interview-questions/top-devops-interview-questions/')
