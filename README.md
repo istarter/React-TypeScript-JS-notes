@@ -1424,8 +1424,16 @@ it says it does. Maybe if it accepts parameter A and B, I want to make sure that
 ***Integration Tests:*** The second one is something called integration tests. This is testing how different pieces of code work together. So it can be testing of whether the database works with the Express app that's requesting some data from the database. Or it could be how a function works with another function and how this connection between them works and testing that. Integration tests are all about cross communication between different units of code. Comparing to unit tests, you would probably use something like spies from a marking library to ensure expected side effects instead of just asserting an output. Or you might use stubs to mock and modify parts of a process that are not inside of the specific test. Such as mocking a database call. We can say run in a test to a function that says Get user to mock the database, call and just fake it and return, let's say a fake user just for the test. Overall though, think of integration tasks as connecting components to see how they work together instead of individual small units that unit tests test. Well, you test the connection between them.
 The downside with to them is that they are expensive. They're slower. There's more deaf time involved in thinking them out and writing them compared to unit tests which are much faster to run.
 ***Automated Test***: Automation tests, like I said before, are UI tests that are always running inside a browser or a browser like environment. Because they need to simulate user behavior in these environments such as clicking, typing, scrolling. And finally they need to make sure that these scenarios actually work from the point of view of an end
+- [Jest CheatSheet](https://github.com/sapegin/jest-cheat-sheet')
+
+
+### Enzyme
+- ***Shallow***: So what does shallow do? Simply by running this syntax, we're saying, Hey, shallow, render this card component and shallow rendering is useful because it just renders the card component. If the cart component for some reason, let's say, had another component inside of it, that is the hello component. Well, it's not going to render that as well. It's just going to shallowly render just this component. And it's useful because it constrains yourself to testing one component at a time, one unit. As you might remember, a unit test is something that just tests one unit at a time, one small piece at a time.
+- [Enzyme Documenation](https://enzymejs.github.io/enzyme/docs/api/')
+
 
 # Interview asked questions
+- [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions')
 1. controlled component vs uncontrolled componenet?: ** 
 In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself. To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM.**
 2. **call by value and call by refernce?:***  
