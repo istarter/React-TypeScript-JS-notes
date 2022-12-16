@@ -1470,6 +1470,10 @@ currentTarget is the element that the event listener is attached to.
 23. **Difference between POST & GET**: Differentiate between GET and POST.
 Both GET and POST method is used to transfer data from client to server in HTTP protocol but Main difference between POST and GET method is that GET carries request parameter appended in URL string while POST carries request parameter in message body which makes it more secure way of transferring data from client to server.
 ***Promises***: Well, a promise is kind of exactly as what it's named. It is a promise that this object will eventually have a value. It will either be a resolved value or a rejected value. The resolve value we use when our API call, for example, is successful. Our reject call we use when our API call gives us an error. But the promise will be in a state where it's pending until either the resolve or the reject has been called.
+- [Promise well explaind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise')
+- ***Filter()***: const myArray = [2,3, 5, 6 , 8]; myArray.filter(el => el > 4) // Result [5, 6, 8]
+- ***Include()***: The other array methods that we've covered so far includes is essentially a method that takes a single argument, and that argument will be any element that we want. And what it does is it checks inside the array to see if the element that we passed it exists in our array.
+
 24. **What is callback function**
 This function is anynomus no name. 
 Callbacks are generally used when the function needs to perform events before the callback is executed, or when the function does not (or cannot) have meaningful return values to act on, as is the case for Asynchronous JavaScript (based on timers) or XMLHttpRequest requests.
