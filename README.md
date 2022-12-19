@@ -1197,6 +1197,20 @@ document.getElementById("demo").innerHTML = myArray[2];
 </script>
 
 ```
+
+### Async Await
+Now by using this async keyword within our async function, we're now suddenly allowed to use the await keyword. And what await does is it pauses the function's execution until what is being awaited is completed and comes back with a value.
+
+![image](https://user-images.githubusercontent.com/11480617/208422801-0aba8565-ac7a-4051-9f7f-f6ae37fe99f0.png)
+
+![image](https://user-images.githubusercontent.com/11480617/208424491-61f07df0-2ecd-45be-89db-e112bfb1f29a.png)
+
+### Find()
+find is a great way for us when we're let's say we have an array of objects, right? And we want to find a specific object based on some condition. Right. You can imagine if we had, let's say, people array where we had an array of objects where the ID was one.
+![image](https://user-images.githubusercontent.com/11480617/208425299-f0f7acd1-7932-42f4-9303-3794783a22d0.png)
+
+
+
 # Unshift method
 The unshift() method adds new elements to the beginning of an array.
 The unshift() method overwrites the original array.
@@ -1209,6 +1223,16 @@ fruits.unshift("Lemon", "Pineapple");
 document.getElementById("demo").innerHTML = fruits;
 </script>
 ```
+### Reduce Method
+Reduce is a great array method to use when we want to do two things. The first is that we want to end up with one value in the end. Right? Not an array but some value in the end. The second is when we want to persist the return or the outcome of iterating over our elements in each subsequent iteration.
+![image](https://user-images.githubusercontent.com/11480617/208473069-136e2246-803f-4ede-97e3-dd7c208054fe.png)
+
+### Memoization Caching
+Caching is a way to store values so you can use them later on. Ideally, you can think of caching as a backpack they take to school. Instead of going all the way home. When you need something like a pencil, you have a small box on your back that holds items that you need so that when you go to school, you can just reuse them fast over and over. Now that's a bit of a silly example. Caching is just a way for us to speed up programs and hold some piece of data in an easily accessible box. And memorization is a specific form of caching that we're going to be talking about, because we use it a lot in dynmaic programming.
+So remember, this memorization is simply a way to remember a solution to a problem. So you don't have to calculate it again.
+![image](https://user-images.githubusercontent.com/11480617/208476916-579d2a25-f931-49c1-b46c-8795d6308128.png)
+
+
 # Random number Generate 
 ```
 import React from "react"
