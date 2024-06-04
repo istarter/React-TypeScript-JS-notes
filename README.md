@@ -17,18 +17,15 @@ console.log(myNewString);
 Working with Numbers
 This script demonstrates creating a Number object and formatting it.
 
-javascript
-Copy code
 const num = new Number(5);
 let x;
 x = num.toString().length;
 x = num.toFixed(2);
 console.log(x);
+
 Math Operations
 This script showcases various mathematical operations.
 
-javascript
-Copy code
 let x;
 x = Math.sqrt(9);
 x = Math.floor(4.9);
@@ -36,11 +33,10 @@ x = Math.ceil(4.3);
 x = Math.round(4.3);
 x = Math.floor(Math.random() * 200 + 1);
 console.log(x);
+
 Random Sum of Two Numbers
 This script generates two random numbers and displays their sum.
 
-javascript
-Copy code
 const x = Math.floor(Math.random() * 100 + 1);
 const y = Math.floor(Math.random() * 50 + 1);
 
@@ -48,19 +44,14 @@ const sum = x + y;
 const sumPlus = `${x} + ${y} = ${sum}`;
 
 console.log(sumPlus);
-Working with Dates
-This script retrieves and logs the current year.
 
-javascript
-Copy code
+Working with Dates This script retrieves and logs the current year.
 let d = new Date();
 d = d.getFullYear();
 console.log(d);
+
 Working with Arrays
 This script demonstrates array manipulation including concatenation and the spread operator.
-
-javascript
-Copy code
 let x;
 const fruits = new Array('apple', 'Banana', 'Orange');
 const berries = ['strawberry', 'blueberry', 'raspberry'];
@@ -73,49 +64,38 @@ x = fruits.concat(berries);
 // Spread operator
 x = [...fruits, ...berries];
 console.log(x);
+
 Flatten Arrays
 This script demonstrates how to flatten a nested array.
-
-javascript
-Copy code
 const arr = [1, 2, [3, 4], 5, [6, 7], 8];
 x = arr.flat();
 console.log(x);
+
 Array Manipulation Challenge
 This script reverses an array, adds 0 at the end, and 6 at the beginning.
-
-javascript
-Copy code
 const arr = [1, 2, 3, 4, 5];
-
 arr.reverse();
 arr.push(0);
 arr.unshift(6);
 console.log(arr);
+
 Remove Duplicate Numbers
 First Solution
 This script combines two arrays and removes duplicates.
-
-javascript
-Copy code
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [5, 6, 7, 8, 9, 10];
 const arr3 = arr1.slice(0, 4).concat(arr2);
 console.log(arr3);
+
 Second Solution
 This script uses the spread operator and Set to remove duplicates.
-
-javascript
-Copy code
 let arr4 = [...arr1, arr2];
 const newArray = [...new Set(arr4)];
 arr4.splice(4, 1);
 console.log(newArray);
+
 Combining and Removing Duplicates from Arrays
 This script combines two arrays using concat and removes duplicates using filter.
-
-javascript
-Copy code
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [5, 6, 7, 8, 9, 10];
 
@@ -131,8 +111,6 @@ console.log(uniqueArray);
 Working with Objects
 This script demonstrates creating and manipulating objects.
 
-javascript
-Copy code
 let x;
 const person = {
   name: "John Doe",
@@ -153,8 +131,6 @@ console.log(x);
 Creating Objects with a Function
 This script defines a function to create objects and demonstrates its use.
 
-javascript
-Copy code
 function createToDo(name, id, complete) {
   return {
     name: name,
@@ -167,10 +143,9 @@ const todo = createToDo('jhon', 1, true);
 let x = todo;
 console.log(x);
 Merging Objects
+
 This script demonstrates merging objects using the spread operator and other object methods.
 
-javascript
-Copy code
 const obj1 = { a: 1, b: 2 };
 const obj2 = { c: 3, d: 4 };
 const obj3 = { ...obj1, ...obj2 };
@@ -183,6 +158,20 @@ x = Object.entries(obj3);
 x = Object.values(obj3);
 x = obj3.hasOwnProperty('age');
 console.log(x);
+
+ Destructuring
+let x;
+const todo = {
+    id: 1,
+    title: 'Take out',
+    user: {
+        name: 'john',
+    }
+}
+
+const {id: todoId, title, user: {name}} = todo;
+console.log(name)
+
 
 ```
 # React
