@@ -172,6 +172,46 @@ const todo = {
 const {id: todoId, title, user: {name}} = todo;
 console.log(name)
 
+// Object Challenge
+const library = [
+    {
+    title: "Harry Poter",
+    author: "Berry John",
+    status: {
+        own: true,
+        reading: false,
+        read: false
+    }
+},
+{
+    title: "Bill",
+    author: "Simoe",
+    status: {
+        own: true,
+        reading: false,
+        read: false
+    }
+},
+{
+    title: "M.j asdi",
+    author: "brown dim",
+    status: {
+        own: true,
+        reading: false,
+        read: false
+    }
+}
+]
+ 
+ library[0].status.read = true;
+ library[1].status.read = true;
+ library[2].status.read = true;
+ 
+ const {title: firsbook} = library[0]
+
+ console.log(firsbook)
+ const libraryJSON = JSON.stringify(library);
+ console.log(libraryJSON)
 
 ```
 # React
