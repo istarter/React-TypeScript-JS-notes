@@ -213,6 +213,31 @@ const library = [
  const libraryJSON = JSON.stringify(library);
  console.log(libraryJSON)
 
+// Rest Paramaters
+
+function sum(...numbers) {
+    let total = 0;
+    for (const num of numbers) {
+        total += num;
+        // console.log(total)
+    }
+    return total;
+}
+
+console.log(sum(1,2,3,4,6)
+
+function loginUser(user) {
+    return `The user ${user.name} with the id of ${user.id} is login in`
+}
+const client = {
+    id: 1, 
+    name: "jhon",
+}
+
+console.log(loginUser(client))
+
+
+
 ```
 # React
 
