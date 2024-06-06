@@ -236,7 +236,18 @@ const client = {
 
 console.log(loginUser(client))
 
+// Function Declaration
+function addDollarSign(value) {
+    return '$' + value;
+}
 
+console.log(addDollarSign(200))
+
+// Function expression
+const addPlusSign = function(value) {
+    return '+' + value;
+}
+console.log(addPlusSign(33))
 
 ```
 # React
